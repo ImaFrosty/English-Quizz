@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>English Quizz - A2/B1 Level</title>
+</head>
+<body>
+<header>
+    <div class="top-bar">
+        <nav>
+            <ul class="menu-principal">
+                <li><a href="">Início</a></li>
+                <li><a href="">Como Funciona</a></li>
+                <li><a href="">O Quizz</a></li>
+                <li><a href="" target="_blank">Feedback</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div class="header_main_title">
+        <h1>English Quizz - A2/B1 Level</h1>
+    </div>
+</header>
+
+<main>
+    <section class="Instruções_section">
+        <h2 class="Instruções"><b>Instruções:</b></h2>
+        <p class="Abaixo_de_instruções">Responda as perguntas da <strong>melhor forma possível</strong>, com calma, ao final você receberá sua pontuação!</p>
+        <p class="Abaixo_de_instruções">Este é um teste do nível iniciante (A2/B1), boa sorte com o teste!</p>
+    </section>
+
+    <section>
+        <h2>Pergunta 1: Qual das alternativas responde corretamente a pergunta "How are you doing?"</h2>
+        <form>
+            <input type="radio" value="I am brazilian" id="p1a" name="Pergunta1">
+            <label for="p1a">I am brazilian</label><br>
+            <input type="radio" value="I am a teacher" id="p1b" name="Pergunta1">
+            <label for="p1b">I am a teacher</label><br>
+            <input type="radio" value="I am playing videogame" id="p1c" name="Pergunta1">
+            <label for="p1c">I am playing videogame</label><br>
+            <input type="radio" value="I am fine, thanks!" id="p1d" name="Pergunta1">
+            <label for="p1d">I am fine, thanks!</label><br>
+        </form>
+    </section>
+
+    <section>
+        <h2>Pergunta 2: Complete a frase: "When I grow up, I want to be ___ aviator."</h2>
+        <input type="text" name="Pergunta2" id="p2" placeholder="Escreva a sua resposta...">
+    </section>
+
+    <section>
+        <h2>Pergunta 3: What colour will you paint the children's bedroom?</h2>
+        <form>
+            <input type="radio" value="I hope it was right" id="p3a" name="Pergunta3">
+            <label for="p3a">I hope it was right</label><br>
+            <input type="radio" value="We can't decide" id="p3b" name="Pergunta3">
+            <label for="p3b">We can't decide</label><br>
+            <input type="radio" value="It wasn't very difficult" id="p3c" name="Pergunta3">
+            <label for="p3c">It wasn't very difficult</label><br>
+            <input type="radio" value="yes, we will do it" id="p3d" name="Pergunta3">
+            <label for="p3d">Yes, we will do it</label><br>
+        </form>
+    </section>
+
+    <section>
+        <h2>Pergunta 4: Descreva abaixo todos os pronomes pessoais:</h2>
+        <form>
+            <input type="text" name="Pergunta4" id="p4" placeholder="Escreva sua resposta...">
+        </form>
+    </section>
+
+    <section>
+        <h2>Pergunta 5: Selecione as sentenças que não apresentam erros gramaticais:</h2>
+        <form>
+            <input type="checkbox" value="I love living every single day" id="p5a" name="Pergunta5">
+            <label for="p5a">I love living every single day</label><br>
+            <input type="checkbox" value="She go to school every morning" id="p5b" name="Pergunta5">
+            <label for="p5b">She go to school every morning</label><br>
+            <input type="checkbox" value="They are playing soccer now" id="p5c" name="Pergunta5">
+            <label for="p5c">They are playing soccer now</label><br>
+            <input type="checkbox" value="He don't like pizza" id="p5d" name="Pergunta5">
+            <label for="p5d">He don't like pizza</label><br>
+        </form>
+    </section>
+
+    <section>
+        <h2>Pergunta 6: Complete a frase: "I'm sorry - I didn't ___ to disturb you":</h2>
+        <form>
+            <input type="radio" value="Hope" id="p6a" name="Pergunta6">
+            <label for="p6a">Hope</label><br>
+            <input type="radio" value="Think" id="p6b" name="Pergunta6">
+            <label for="p6b">Think</label><br>
+            <input type="radio" value="Mean" id="p6c" name="Pergunta6">
+            <label for="p6c">Mean</label><br>
+            <input type="radio" value="Suppose" id="p6d" name="Pergunta6">
+            <label for="p6d">Suppose</label><br>
+        </form>
+    </section>
+
+    <section>
+        <h2>Pergunta 7: Selecione abaixo o passado do verbo "to go":</h2>
+        <form>
+            <select name="Pergunta7" id="p7">
+                <option value="select">selecione uma opção</option>
+                <option value="goed">Goed</option>
+                <option value="went">Went</option>
+                <option value="gone">Gone</option>
+                <option value="was">Was</option>
+            </select>
+        </form>
+    </section>
+
+    <section>
+        <h2>Pergunta 8 - Qual o nome 'em inglês' do item mostrado na imagem abaixo?</h2>
+        <img class="Imagem" src="imagemaleatoria.jpg" alt="Imagem de uma pessoa segurando uma lâmpada, você consegue me dizer como dizer o nome deste objeto em inglês?"><br>
+        <form>
+            <input type="text" name="Pergunta8" id="p8" placeholder="Escreva a sua resposta...">
+        </form>
+    </section>
+
+    <section class="results-section">
+        <h2>Tabela de Pontuação</h2>
+        <div class="table-container">
+            <table class="results-table">
+                <thead>
+                    <tr>
+                        <th>Pontuação</th>
+                        <th>Resultado</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr class="score-0-2">
+                        <td class="score">0-2</td>
+                        <td class="message">Não desista! Cada tentativa é uma nova oportunidade de aprender!</td>
+                    </tr>
+                    <tr class="score-3-4">
+                        <td class="score">3-4</td>
+                        <td class="message">Você ainda precisa melhorar. Que tal estudar novos conteúdos da lingua inglesa?</td>
+                    </tr>
+                    <tr class="score-5-7">
+                        <td class="score">5-7</td>
+                        <td class="message">Ótimo! Seu conhecimento está em um excelente nível!</td>
+                    </tr>
+                    <tr class="score-8">
+                        <td class="score">8</td>
+                        <td class="message">You nailed it! Keep doing like this and you'll shine more than the stars!</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td colspan="2">Boa sorte e bons estudos!</td>
+                    </tr>
+                </tfoot>
+            </table>
+        </div>
+    </section>
+
+    <section>
+        <details>
+            <summary>Gabarito (clique para ver as respostas corretas)</summary>
+            <ol>
+                <li>I am fine, thanks!</li>
+                <li>When I grow up, I want to be an aviator.</li>
+                <li>Você escolhe! Lembrando que verbos são palavras que indicam ação!</li>
+                <li>I, You, He, She, It, We, You, They.</li>
+                <li>I love living every single day / They are playing soccer now.</li>
+                <li>Mean</li>
+                <li>Went</li>
+                <li>Lightbulb</li>
+            </ol>
+        </details>
+    </section>
+
+    <section>
+        <h2 class="feedback_title">Nos dê o seu feedback:</h2>
+        <form>
+            <fieldset>
+                <legend>Seu feedback é muito importante para nós!</legend>
+                <label for="name">Seu Nome:</label>
+                <input type="text" name="nome" id="name" required><br><br>
+                <label for="email">Seu melhor e-mail:</label>
+                <input type="email" name="email" id="email" required><br><br>
+                <label for="comentários">Deixe também o seu comentário:</label><br>
+                <textarea name="Comentários" id="comentários" rows="6" cols="50" placeholder="Escreva aqui seus comentários..."></textarea><br>
+                <button onclick="alert('Feedback enviado!')">Envie aqui o seu feedback</button>
+            </fieldset>
+        </form>
+    </section>
+</main>
+
+<footer>
+    <p>&copy; 2025 English Quizz. Todos os direitos reservados.</p>
+    <p>Se você tem alguma sugestão, <a href="empty_link_vou_adicionar_depois." target="_blank">nos contate!</a></p>
+</footer>
+</body>
+</html>
